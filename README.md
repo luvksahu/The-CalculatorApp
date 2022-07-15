@@ -2,9 +2,9 @@
 
 #### A simple calculator App I designed for my Internship application.
 <div>
-<img  src="res/SplashScreen.jpg" alt="luvksahu" height="480" width="260" display:inline/>
+<img  src="res/SplashScreen.png" alt="luvksahu" height="480" width="260" display:inline/>
 <img  src="res/AppGif.gif" alt="luvksahu" height="480" width="260" />
-<img  src="res/MainUi.jpg" alt="luvksahu" height="480" width="260" />
+<img  src="res/MainUi.png" alt="luvksahu" height="480" width="260" />
  </div>
 
 ### Let us connect :
