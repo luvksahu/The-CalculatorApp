@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -20,7 +21,8 @@
             android:background="@color/black"
             android:text="C"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
 
         <Button
@@ -33,17 +35,21 @@
             android:background="@color/black"
             android:text="%"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
 
         <ImageButton
             android:id="@+id/btnErase"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/ic_backspace_orange"
             android:layout_row="0"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:background="@color/black"/>
+            android:background="@color/black"
+            android:visibility="visible"
+            android:src="@drawable/ic_backspace_orange"
+            tools:visibility="visible" />
 
 
         <Button
@@ -56,7 +62,8 @@
             android:background="@color/black"
             android:text="/"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn7"
@@ -103,7 +110,8 @@
             android:background="@color/black"
             android:text="X"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn4"
@@ -150,7 +158,8 @@
             android:background="@color/black"
             android:text="-"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn1"
@@ -197,7 +206,8 @@
             android:background="@color/black"
             android:text="+"
             android:textColor="@color/Orange"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn0"
@@ -244,7 +254,8 @@
             android:background="@color/Orange"
             android:text="="
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
     </GridLayout>
 
 
