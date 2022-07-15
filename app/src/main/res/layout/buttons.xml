@@ -108,7 +108,7 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:background="@color/black"
-            android:text="X"
+            android:text="x"
             android:textColor="@color/Orange"
             android:textSize="25sp"
             android:textStyle="bold" />
