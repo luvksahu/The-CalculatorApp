@@ -1,0 +1,359 @@
+Index: app/src/main/res/layout/buttons.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\">\r\n\r\n    <GridLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:columnCount=\"6\"\r\n        android:rowCount=\"5\">\r\n\r\n        <Button\r\n            android:id=\"@+id/btnClear\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"0\"\r\n            android:layout_column=\"0\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"C\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n\r\n        <Button\r\n            android:id=\"@+id/btnPercent\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"0\"\r\n            android:layout_column=\"1\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"%\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <ImageButton\r\n            android:id=\"@+id/btnErase\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            app:srcCompat=\"@drawable/ic_backspace_orange\"\r\n            android:layout_row=\"0\"\r\n            android:layout_column=\"2\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"/>\r\n\r\n\r\n        <Button\r\n            android:id=\"@+id/btnDivision\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"0\"\r\n            android:layout_column=\"3\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"/\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn7\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"1\"\r\n            android:layout_column=\"0\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"7\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn8\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"1\"\r\n            android:layout_column=\"1\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"8\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn9\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"1\"\r\n            android:layout_column=\"2\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"9\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnMultiply\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"1\"\r\n            android:layout_column=\"3\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"X\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn4\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"2\"\r\n            android:layout_column=\"0\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"4\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn5\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"2\"\r\n            android:layout_column=\"1\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"5\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn6\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"2\"\r\n            android:layout_column=\"2\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"6\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnMinus\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"2\"\r\n            android:layout_column=\"3\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"-\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn1\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"3\"\r\n            android:layout_column=\"0\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"1\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn2\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"3\"\r\n            android:layout_column=\"1\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"2\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn3\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"3\"\r\n            android:layout_column=\"2\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"3\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnAdd\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"3\"\r\n            android:layout_column=\"3\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"+\"\r\n            android:textColor=\"@color/Orange\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn0\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"4\"\r\n            android:layout_column=\"0\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"0\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btn00\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"4\"\r\n            android:layout_column=\"1\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\"00\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnDot\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"4\"\r\n            android:layout_column=\"2\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/black\"\r\n            android:text=\".\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n\r\n        <Button\r\n            android:id=\"@+id/btnEquals\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"100dp\"\r\n            android:layout_row=\"4\"\r\n            android:layout_column=\"3\"\r\n            android:layout_columnWeight=\"1\"\r\n            android:background=\"@color/Orange\"\r\n            android:text=\"=\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"25sp\" />\r\n    </GridLayout>\r\n\r\n\r\n\r\n</RelativeLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/buttons.xml b/app/src/main/res/layout/buttons.xml
+--- a/app/src/main/res/layout/buttons.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/layout/buttons.xml	(date 1657897448117)
+@@ -2,6 +2,7 @@
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+ 
+@@ -20,7 +21,8 @@
+             android:background="@color/black"
+             android:text="C"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+ 
+ 
+         <Button
+@@ -33,17 +35,21 @@
+             android:background="@color/black"
+             android:text="%"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
++
+ 
+         <ImageButton
+             android:id="@+id/btnErase"
+             android:layout_width="wrap_content"
+             android:layout_height="100dp"
+-            app:srcCompat="@drawable/ic_backspace_orange"
+             android:layout_row="0"
+             android:layout_column="2"
+             android:layout_columnWeight="1"
+-            android:background="@color/black"/>
++            android:background="@color/black"
++            android:visibility="visible"
++            android:src="@drawable/ic_backspace_orange"
++            tools:visibility="visible" />
+ 
+ 
+         <Button
+@@ -56,7 +62,8 @@
+             android:background="@color/black"
+             android:text="/"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+ 
+         <Button
+             android:id="@+id/btn7"
+@@ -103,7 +110,8 @@
+             android:background="@color/black"
+             android:text="X"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+ 
+         <Button
+             android:id="@+id/btn4"
+@@ -150,7 +158,8 @@
+             android:background="@color/black"
+             android:text="-"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+ 
+         <Button
+             android:id="@+id/btn1"
+@@ -197,7 +206,8 @@
+             android:background="@color/black"
+             android:text="+"
+             android:textColor="@color/Orange"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+ 
+         <Button
+             android:id="@+id/btn0"
+@@ -244,7 +254,8 @@
+             android:background="@color/Orange"
+             android:text="="
+             android:textColor="@color/white"
+-            android:textSize="25sp" />
++            android:textSize="25sp"
++            android:textStyle="bold" />
+     </GridLayout>
+ 
+ 
+Index: app/src/main/res/layout/input_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:orientation=\"vertical\" android:layout_width=\"match_parent\"\r\n    android:background=\"@color/black\"\r\n    android:layout_height=\"wrap_content\">\r\n\r\n    <TextView\r\n        android:id=\"@+id/tvInput\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:textSize=\"30sp\"\r\n        android:gravity=\"end\"\r\n        android:textColor=\"@color/white\"\r\n        android:background=\"@color/black\"\r\n        android:padding=\"10dp\"/>\r\n\r\n    <TextView\r\n        android:id=\"@+id/tvOutput\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:textSize=\"60sp\"\r\n        android:gravity=\"end\"\r\n        android:textColor=\"@color/white\"\r\n        android:background=\"@color/black\"\r\n        android:padding=\"10dp\"/>\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/input_layout.xml b/app/src/main/res/layout/input_layout.xml
+--- a/app/src/main/res/layout/input_layout.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/layout/input_layout.xml	(date 1657904760984)
+@@ -12,7 +12,8 @@
+         android:gravity="end"
+         android:textColor="@color/white"
+         android:background="@color/black"
+-        android:padding="10dp"/>
++        android:padding="10dp"
++        android:layout_marginTop="80dp"/>
+ 
+     <TextView
+         android:id="@+id/tvOutput"
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"com.example.calculator\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity android:name=\".MainActivity\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/AndroidManifest.xml	(date 1657901080439)
+@@ -9,13 +9,17 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme">
+-        <activity android:name=".MainActivity">
++        <activity
++            android:name=".SplashActivity"
++            android:exported="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+ 
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
++        <activity android:name=".MainActivity"/>
++
+     </application>
+ 
+ </manifest>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_splash.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_splash.xml b/app/src/main/res/layout/activity_splash.xml
+new file mode 100644
+--- /dev/null	(date 1657900995588)
++++ b/app/src/main/res/layout/activity_splash.xml	(date 1657900995588)
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="@color/yellow"
++    tools:context=".SplashActivity">
++
++    <ImageView
++        android:id="@+id/imageView"
++        android:layout_width="120dp"
++        android:layout_height="120dp"
++        android:layout_marginTop="284dp"
++        android:src="@drawable/calculator"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.498"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/textView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:text="Designed by Luv_k_sahu"
++        android:textSize="16sp"
++        android:textStyle="bold"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.498"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/imageView"
++        app:layout_constraintVertical_bias="0.78" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<adaptive-icon xmlns:android=\"http://schemas.android.com/apk/res/android\">\r\n    <background android:drawable=\"@drawable/ic_launcher_background\" />\r\n    <foreground android:drawable=\"@drawable/ic_launcher_foreground\" />\r\n</adaptive-icon>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+--- a/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(date 1657899398499)
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++  <background android:drawable="@mipmap/ic_launcher_adaptive_back"/>
++  <foreground android:drawable="@mipmap/ic_launcher_adaptive_fore"/>
+ </adaptive-icon>
+\ No newline at end of file
+Index: app/src/main/java/com/example/calculator/SplashActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/calculator/SplashActivity.java b/app/src/main/java/com/example/calculator/SplashActivity.java
+new file mode 100644
+--- /dev/null	(date 1657905887863)
++++ b/app/src/main/java/com/example/calculator/SplashActivity.java	(date 1657905887863)
+@@ -0,0 +1,37 @@
++package com.example.calculator;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.WindowManager;
++
++public class SplashActivity extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_splash);
++
++        getSupportActionBar().hide();
++
++        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
++
++        Thread thread=new Thread(){
++            public void run(){
++                try{
++                    sleep(1000);
++                }
++                catch(Exception ex){
++                    ex.printStackTrace();
++                }
++                finally{
++                    Intent intent=new Intent(SplashActivity.this,MainActivity.class);
++                    startActivity(intent);
++                    finish();
++                }
++            }
++        };
++        thread.start();
++    }
++}
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/drawable/ic_erase.xml\" value=\"0.2435\" />\r\n        <entry key=\"..\\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/activity_main.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/buttons.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/input_layout.xml\" value=\"0.25\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/.idea/misc.xml	(date 1657898064250)
+@@ -5,6 +5,7 @@
+       <map>
+         <entry key="..\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/drawable/ic_erase.xml" value="0.2435" />
+         <entry key="..\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
++        <entry key="..\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+         <entry key="..\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/buttons.xml" value="0.25" />
+         <entry key="..\:/Users/user/AndroidStudioProjects/CalculatorApp/app/src/main/res/layout/input_layout.xml" value="0.25" />
+       </map>
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"colorPrimary\">#008577</color>\r\n    <color name=\"colorPrimaryDark\">#00574B</color>\r\n    <color name=\"colorAccent\">#DB1B60</color>\r\n\r\n    <color name=\"orange\">#D6895E</color>\r\n    <color name=\"Orange\">#E67E22</color>\r\n    <color name=\"black\">#373331</color>\r\n    <color name=\"white\">#fff</color>\r\n    <color name=\"blue\">#3498DB</color>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/colors.xml b/app/src/main/res/values/colors.xml
+--- a/app/src/main/res/values/colors.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/values/colors.xml	(date 1657899959330)
+@@ -4,7 +4,7 @@
+     <color name="colorPrimaryDark">#00574B</color>
+     <color name="colorAccent">#DB1B60</color>
+ 
+-    <color name="orange">#D6895E</color>
++    <color name="yellow">#FFC107</color>
+     <color name="Orange">#E67E22</color>
+     <color name="black">#373331</color>
+     <color name="white">#fff</color>
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n\r\n    <!-- Base application theme. -->\r\n    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\r\n        <!-- Customize your theme here. -->\r\n        <item name=\"colorPrimary\">@color/colorPrimary</item>\r\n        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\r\n        <item name=\"colorAccent\">@color/colorAccent</item>\r\n    </style>\r\n\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/styles.xml b/app/src/main/res/values/styles.xml
+--- a/app/src/main/res/values/styles.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/values/styles.xml	(date 1657897734251)
+@@ -4,7 +4,7 @@
+     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+         <!-- Customize your theme here. -->
+         <item name="colorPrimary">@color/colorPrimary</item>
+-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
++        <item name="colorPrimaryDark">@color/black</item>
+         <item name="colorAccent">@color/colorAccent</item>
+     </style>
+ 
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apply plugin: 'com.android.application'\r\n\r\nandroid {\r\n    compileSdkVersion 30\r\n\r\n    defaultConfig {\r\n        applicationId \"com.example.calculator\"\r\n        minSdkVersion 16\r\n        targetSdkVersion 30\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n        compileOptions {\r\n            sourceCompatibility JavaVersion.VERSION_1_8\r\n            targetCompatibility JavaVersion.VERSION_1_8\r\n        }\r\n    }\r\n    buildFeatures{\r\n        viewBinding true\r\n    }\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n\r\n}\r\n\r\ndependencies {\r\n    implementation fileTree(dir: 'libs', include: ['*.jar'])\r\n\r\n    implementation 'androidx.appcompat:appcompat:1.1.0'\r\n    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'\r\n    testImplementation 'junit:junit:4.12'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n    implementation group: 'org.mozilla', name: 'rhino', version: '1.7.12'\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/build.gradle	(date 1657897532580)
+@@ -33,6 +33,7 @@
+ 
+     implementation 'androidx.appcompat:appcompat:1.1.0'
+     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
++    implementation 'com.google.android.material:material:1.4.0'
+     testImplementation 'junit:junit:4.12'
+     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <include\r\n        layout=\"@layout/input_layout\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_width=\"match_parent\" />\r\n\r\n    <RelativeLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:gravity=\"bottom\"\r\n        android:background=\"@color/black\"\r\n        >\r\n\r\n        <include\r\n            layout=\"@layout/buttons\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\" />\r\n\r\n    </RelativeLayout>\r\n\r\n\r\n\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+--- a/app/src/main/res/layout/activity_main.xml	(revision af7c5d7dabf2bf634062662b06a8feea97293338)
++++ b/app/src/main/res/layout/activity_main.xml	(date 1657897959721)
+@@ -10,7 +10,7 @@
+     <include
+         layout="@layout/input_layout"
+         android:layout_height="wrap_content"
+-        android:layout_width="match_parent" />
++        android:layout_width="match_parent"/>
+ 
+     <RelativeLayout
+         android:layout_width="match_parent"
